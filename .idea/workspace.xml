@@ -22,12 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="APIの組み込みのために、Axiosをインストールし、Vue.jsから使えるようにlaravel_vue_quiz/resources/js/app.jsを編集しました。">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/quizapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel_vue_quiz.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="実装準備のためDatabaseの設定を行いました。">
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +189,7 @@
       <workItem from="1601229304545" duration="99000" />
       <workItem from="1601259652604" duration="1820000" />
       <workItem from="1602551923918" duration="2429000" />
-      <workItem from="1603169585878" duration="25105000" />
+      <workItem from="1603169585878" duration="25456000" />
     </task>
     <task id="LOCAL-00001" summary="first commit　laravelのディレクトリを作成">
       <created>1600935074824</created>
@@ -349,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603766265120</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="実装準備のためDatabaseの設定を行いました。">
+      <created>1603772130856</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1603772130856</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +393,8 @@
     <MESSAGE value="クイズ画面にVue Routerを導入するため、laravel_vue_quiz/resources/views/quiz/index.blade.phpを編集しました。" />
     <MESSAGE value="ホーム画面・クイズ画面をSPA化するために、Home.vueを編集しました。" />
     <MESSAGE value="APIの組み込みのために、Axiosをインストールし、Vue.jsから使えるようにlaravel_vue_quiz/resources/js/app.jsを編集しました。" />
-    <option name="LAST_COMMIT_MESSAGE" value="APIの組み込みのために、Axiosをインストールし、Vue.jsから使えるようにlaravel_vue_quiz/resources/js/app.jsを編集しました。" />
+    <MESSAGE value="実装準備のためDatabaseの設定を行いました。" />
+    <option name="LAST_COMMIT_MESSAGE" value="実装準備のためDatabaseの設定を行いました。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1064" y="380" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603771211925">
@@ -417,10 +421,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="950" height="302" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1600934704931" />
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1603766278239">
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1603772141849">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1603766278239" />
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1603772141849" />
     <state x="900" y="123" width="792" height="893" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600932790272">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
