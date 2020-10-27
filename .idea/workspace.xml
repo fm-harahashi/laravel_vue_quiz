@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="" />
+    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="APIの組み込みのために、Axiosをインストールし、Vue.jsから使えるようにlaravel_vue_quiz/resources/js/app.jsを編集しました。">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/quizapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel_vue_quiz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +39,14 @@
     <execution>
       <executable path="composer" />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="developer" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -132,6 +167,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -153,13 +189,218 @@
       <workItem from="1600848281582" duration="400000" />
       <workItem from="1600923281745" duration="4040000" />
       <workItem from="1600933236571" duration="1467000" />
+      <workItem from="1600934717573" duration="3435000" />
+      <workItem from="1601229304545" duration="99000" />
+      <workItem from="1601259652604" duration="1820000" />
+      <workItem from="1602551923918" duration="2429000" />
+      <workItem from="1603169585878" duration="25105000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit　laravelのディレクトリを作成">
+      <created>1600935074824</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600935074824</updated>
+    </task>
+    <task id="LOCAL-00002" summary="画像ファイルを、vue_hello/public/laravel_vue_quiz/public/imagesに移行しました。">
+      <created>1603169976667</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603169976667</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fontの移行のため、vue_hello/resources/fonts/NasuM-Regular.ttfをlaravel_vue_quiz/resources/fonts/NasuM-Regular.ttfに移行しました。">
+      <created>1603170897493</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603170897493</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Sassの移行のため、vue_hello/resources/sassをlaravel_vue_quiz/resources/sassに移行しました。">
+      <created>1603171719203</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603171719203</updated>
+    </task>
+    <task id="LOCAL-00005" summary="JSファイルの移行のため、vue_hello/resources/jsをlaravel_vue_quiz/resources/jsに移行しました。">
+      <created>1603172648409</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603172648409</updated>
+    </task>
+    <task id="LOCAL-00006" summary="package.jsonの移行のため、vue_hello/package.jsonをlaravel_vue_quiz/package.jsonに移行しました。">
+      <created>1603174751785</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603174751785</updated>
+    </task>
+    <task id="LOCAL-00007" summary="webpack.mix.jsの移行のため、vue_hello/webpack.mix.jsをlaravel_vue_quiz/webpack.mix.jsに上書きしました。">
+      <created>1603176256512</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603176256512</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Laravelのルーティングの設定のため、laravel_vue_quiz/routes/web.phpを編集しました。">
+      <created>1603177319031</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603177319031</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Laravelのルーティングの設定のため、laravel_vue_quiz/routes/web.phpを編集しましたが、useの１行を間違えて消してしまったので、再度追記しました。">
+      <created>1603178633810</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603178633810</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ホーム画面とクイズ画面を作成するため、index.blade.phpとquiz/index.blade.phpの作成と編集しました。">
+      <created>1603194439274</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603194439274</updated>
+    </task>
+    <task id="LOCAL-00011" summary="コンパイルしたCSSとJavaScriptの読み込みをするため、laravel_vue_quiz/resources/views/index.blade.phpを編集しました。">
+      <created>1603195324118</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603195324118</updated>
+    </task>
+    <task id="LOCAL-00012" summary="画像パスを修正するために、laravel_vue_quiz/resources/js/components/layout/TheHeader.vueを編集しました。">
+      <created>1603248525115</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603248525115</updated>
+    </task>
+    <task id="LOCAL-00013" summary="画像パスを修正するために、laravel_vue_quiz/resources/js/components/page/Home.vueを編集しました。">
+      <created>1603249189147</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603249189147</updated>
+    </task>
+    <task id="LOCAL-00014" summary="クイズ画面の画像パスを修正するために、laravel_vue_quiz/resources/views/quiz/index.blade.phpを編集しました。">
+      <created>1603251768110</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1603251768110</updated>
+    </task>
+    <task id="LOCAL-00015" summary="クイズ画面の画像パスを修正するために、laravel_vue_quiz/resources/js/components/page/quiz.vueを編集しました。">
+      <created>1603255419124</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1603255419124</updated>
+    </task>
+    <task id="LOCAL-00016" summary="vue-routerをインストールし、ルーティングの設定のためlaravel_vue_quiz/resources/js/router.jsを新規作成しました。">
+      <created>1603259762089</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1603259762089</updated>
+    </task>
+    <task id="LOCAL-00017" summary="ルーティングの設定のためlaravel_vue_quiz/resources/js/app.jsを作成し編集しました。">
+      <created>1603262124852</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1603262124852</updated>
+    </task>
+    <task id="LOCAL-00018" summary="ルーティングの設定のためlaravel_vue_quiz/resources/views/index.blade.phpを作成し編集しました。">
+      <created>1603263057342</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1603263057342</updated>
+    </task>
+    <task id="LOCAL-00019" summary="ルーティングの設定で、app.jsを新規作成したことで、コンパイルの設定が必要なためlaravel_vue_quiz/webpack.mix.jsを編集しました。">
+      <created>1603263858904</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1603263858904</updated>
+    </task>
+    <task id="LOCAL-00020" summary="クイズ画面にVue Routerを導入するため、laravel_vue_quiz/resources/views/quiz/index.blade.phpを編集しました。">
+      <created>1603264626273</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1603264626273</updated>
+    </task>
+    <task id="LOCAL-00021" summary="ホーム画面・クイズ画面をSPA化するために、Home.vueを編集しました。">
+      <created>1603763996568</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1603763996568</updated>
+    </task>
+    <task id="LOCAL-00022" summary="APIの組み込みのために、Axiosをインストールし、Vue.jsから使えるようにlaravel_vue_quiz/resources/js/app.jsを編集しました。">
+      <created>1603766265120</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1603766265120</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit　laravelのディレクトリを作成" />
+    <MESSAGE value="画像ファイルを、vue_hello/public/laravel_vue_quiz/public/imagesに移行しました。" />
+    <MESSAGE value="Fontの移行のため、vue_hello/resources/fonts/NasuM-Regular.ttfをlaravel_vue_quiz/resources/fonts/NasuM-Regular.ttfに移行しました。" />
+    <MESSAGE value="Sassの移行のため、vue_hello/resources/sassをlaravel_vue_quiz/resources/sassに移行しました。" />
+    <MESSAGE value="JSファイルの移行のため、vue_hello/resources/jsをlaravel_vue_quiz/resources/jsに移行しました。" />
+    <MESSAGE value="package.jsonの移行のため、vue_hello/package.jsonをlaravel_vue_quiz/package.jsonに移行しました。" />
+    <MESSAGE value="webpack.mix.jsの移行のため、vue_hello/webpack.mix.jsをlaravel_vue_quiz/webpack.mix.jsに上書きしました。" />
+    <MESSAGE value="Laravelのルーティングの設定のため、laravel_vue_quiz/routes/web.phpを編集しました。" />
+    <MESSAGE value="Laravelのルーティングの設定のため、laravel_vue_quiz/routes/web.phpを編集しましたが、useの１行を間違えて消してしまったので、再度追記しました。" />
+    <MESSAGE value="ホーム画面とクイズ画面を作成するため、index.blade.phpとquiz/index.blade.phpの作成と編集しました。" />
+    <MESSAGE value="コンパイルしたCSSとJavaScriptの読み込みをするため、laravel_vue_quiz/resources/views/index.blade.phpを編集しました。" />
+    <MESSAGE value="画像パスを修正するために、laravel_vue_quiz/resources/js/components/layout/TheHeader.vueを編集しました。" />
+    <MESSAGE value="画像パスを修正するために、laravel_vue_quiz/resources/js/components/page/Home.vueを編集しました。" />
+    <MESSAGE value="クイズ画面の画像パスを修正するために、laravel_vue_quiz/resources/views/quiz/index.blade.phpを編集しました。" />
+    <MESSAGE value="クイズ画面の画像パスを修正するために、laravel_vue_quiz/resources/js/components/page/quiz.vueを編集しました。" />
+    <MESSAGE value="vue-routerをインストールし、ルーティングの設定のためlaravel_vue_quiz/resources/js/router.jsを新規作成しました。" />
+    <MESSAGE value="ルーティングの設定のためlaravel_vue_quiz/resources/js/app.jsを作成し編集しました。" />
+    <MESSAGE value="ルーティングの設定のためlaravel_vue_quiz/resources/views/index.blade.phpを作成し編集しました。" />
+    <MESSAGE value="ルーティングの設定で、app.jsを新規作成したことで、コンパイルの設定が必要なためlaravel_vue_quiz/webpack.mix.jsを編集しました。" />
+    <MESSAGE value="クイズ画面にVue Routerを導入するため、laravel_vue_quiz/resources/views/quiz/index.blade.phpを編集しました。" />
+    <MESSAGE value="ホーム画面・クイズ画面をSPA化するために、Home.vueを編集しました。" />
+    <MESSAGE value="APIの組み込みのために、Axiosをインストールし、Vue.jsから使えるようにlaravel_vue_quiz/resources/js/app.jsを編集しました。" />
+    <option name="LAST_COMMIT_MESSAGE" value="APIの組み込みのために、Axiosをインストールし、Vue.jsから使えるようにlaravel_vue_quiz/resources/js/app.jsを編集しました。" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1064" y="380" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603771211925">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="1064" y="380" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1603771211925" />
+    <state x="977" y="125" width="691" height="893" key="DiffContextDialog" timestamp="1603772104825">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="977" y="125" width="691" height="893" key="DiffContextDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1603772104825" />
     <state width="950" height="302" key="GridCell.Tab.0.bottom" timestamp="1600934704931">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -176,13 +417,21 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="950" height="302" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1600934704931" />
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1603766278239">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1603766278239" />
     <state x="900" y="123" width="792" height="893" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600932790272">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="900" y="123" width="792" height="893" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1600932790272" />
-    <state x="961" y="267" width="670" height="676" key="search.everywhere.popup" timestamp="1600925343535">
+    <state x="890" y="324" width="598" height="490" key="find.popup" timestamp="1601015775657">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="961" y="267" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1600925343535" />
+    <state x="890" y="324" width="598" height="490" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1601015775657" />
+    <state x="815" y="248" width="670" height="676" key="search.everywhere.popup" timestamp="1603771758461">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="815" y="248" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1603771758461" />
   </component>
 </project>
