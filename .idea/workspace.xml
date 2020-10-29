@@ -22,8 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="実装準備のためDatabaseの設定を行いました。">
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="場所時刻（Timezone・Locale）を日本に設定するために、laravel_vue_quiz/config/app.phpを編集しました。">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_27_045405_create_informations_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_27_045405_create_informations_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/InformationTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/InformationTableSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +170,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -189,7 +197,8 @@
       <workItem from="1601229304545" duration="99000" />
       <workItem from="1601259652604" duration="1820000" />
       <workItem from="1602551923918" duration="2429000" />
-      <workItem from="1603169585878" duration="25456000" />
+      <workItem from="1603169585878" duration="35550000" />
+      <workItem from="1603866491884" duration="2757000" />
     </task>
     <task id="LOCAL-00001" summary="first commit　laravelのディレクトリを作成">
       <created>1600935074824</created>
@@ -352,7 +361,49 @@
       <option name="project" value="LOCAL" />
       <updated>1603772130856</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="対応するURLと呼び出すコントローラーを設定するため、laravel_vue_quiz/routes/api.phpを編集しました。">
+      <created>1603772737887</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1603772737887</updated>
+    </task>
+    <task id="LOCAL-00025" summary="ホーム画面のお知らせAPI連携を実装するため、InformationControllerを作成しました。">
+      <created>1603773229665</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1603773229665</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Informationテーブルのマイグレーションファイル作成し、作成したcreate_informations_tableを編集しました。">
+      <created>1603775255495</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1603775255495</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Informationモデル（laravel_vue_quiz/app/Information.php）を作成し、編集しました。">
+      <created>1603777594551</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1603777594551</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Informationsテーブルのダミーデータの設定をするため、Informationシーダー(laravel_vue_quiz/database/seeds/InformationTableSeeder.php)を作成、編集しました。">
+      <created>1603778110041</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1603778110041</updated>
+    </task>
+    <task id="LOCAL-00029" summary="場所時刻（Timezone・Locale）を日本に設定するために、laravel_vue_quiz/config/app.phpを編集しました。">
+      <created>1603778625616</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1603778625616</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,10 +422,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit　laravelのディレクトリを作成" />
-    <MESSAGE value="画像ファイルを、vue_hello/public/laravel_vue_quiz/public/imagesに移行しました。" />
-    <MESSAGE value="Fontの移行のため、vue_hello/resources/fonts/NasuM-Regular.ttfをlaravel_vue_quiz/resources/fonts/NasuM-Regular.ttfに移行しました。" />
-    <MESSAGE value="Sassの移行のため、vue_hello/resources/sassをlaravel_vue_quiz/resources/sassに移行しました。" />
     <MESSAGE value="JSファイルの移行のため、vue_hello/resources/jsをlaravel_vue_quiz/resources/jsに移行しました。" />
     <MESSAGE value="package.jsonの移行のため、vue_hello/package.jsonをlaravel_vue_quiz/package.jsonに移行しました。" />
     <MESSAGE value="webpack.mix.jsの移行のため、vue_hello/webpack.mix.jsをlaravel_vue_quiz/webpack.mix.jsに上書きしました。" />
@@ -394,7 +441,13 @@
     <MESSAGE value="ホーム画面・クイズ画面をSPA化するために、Home.vueを編集しました。" />
     <MESSAGE value="APIの組み込みのために、Axiosをインストールし、Vue.jsから使えるようにlaravel_vue_quiz/resources/js/app.jsを編集しました。" />
     <MESSAGE value="実装準備のためDatabaseの設定を行いました。" />
-    <option name="LAST_COMMIT_MESSAGE" value="実装準備のためDatabaseの設定を行いました。" />
+    <MESSAGE value="対応するURLと呼び出すコントローラーを設定するため、laravel_vue_quiz/routes/api.phpを編集しました。" />
+    <MESSAGE value="ホーム画面のお知らせAPI連携を実装するため、InformationControllerを作成しました。" />
+    <MESSAGE value="Informationテーブルのマイグレーションファイル作成し、作成したcreate_informations_tableを編集しました。" />
+    <MESSAGE value="Informationモデル（laravel_vue_quiz/app/Information.php）を作成し、編集しました。" />
+    <MESSAGE value="Informationsテーブルのダミーデータの設定をするため、Informationシーダー(laravel_vue_quiz/database/seeds/InformationTableSeeder.php)を作成、編集しました。" />
+    <MESSAGE value="場所時刻（Timezone・Locale）を日本に設定するために、laravel_vue_quiz/config/app.phpを編集しました。" />
+    <option name="LAST_COMMIT_MESSAGE" value="場所時刻（Timezone・Locale）を日本に設定するために、laravel_vue_quiz/config/app.phpを編集しました。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1064" y="380" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603771211925">
@@ -421,10 +474,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="950" height="302" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1600934704931" />
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1603772141849">
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1603778632879">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1603772141849" />
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1603778632879" />
     <state x="900" y="123" width="792" height="893" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600932790272">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -433,9 +486,9 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="890" y="324" width="598" height="490" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1601015775657" />
-    <state x="815" y="248" width="670" height="676" key="search.everywhere.popup" timestamp="1603771758461">
+    <state x="815" y="248" width="670" height="676" key="search.everywhere.popup" timestamp="1603799554891">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="815" y="248" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1603771758461" />
+    <state x="815" y="248" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1603799554891" />
   </component>
 </project>
