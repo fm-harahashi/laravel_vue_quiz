@@ -22,12 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="場所時刻（Timezone・Locale）を日本に設定するために、laravel_vue_quiz/config/app.phpを編集しました。">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_27_045405_create_informations_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_27_045405_create_informations_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/InformationTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/InformationTableSeeder.php" afterDir="false" />
-    </list>
+    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="場所時刻（Timezone・Locale）を日本に設定するために、laravel_vue_quiz/config/app.phpを編集しました。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +193,7 @@
       <workItem from="1601259652604" duration="1820000" />
       <workItem from="1602551923918" duration="2429000" />
       <workItem from="1603169585878" duration="35550000" />
-      <workItem from="1603866491884" duration="2757000" />
+      <workItem from="1603866491884" duration="3426000" />
     </task>
     <task id="LOCAL-00001" summary="first commit　laravelのディレクトリを作成">
       <created>1600935074824</created>
@@ -403,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603778625616</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="場所時刻（Timezone・Locale）を日本に設定するために、laravel_vue_quiz/config/app.phpを編集しました。">
+      <created>1603935244284</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1603935244285</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,10 +476,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="950" height="302" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1600934704931" />
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1603778632879">
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1603935250050">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1603778632879" />
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1603935250050" />
     <state x="900" y="123" width="792" height="893" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600932790272">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
