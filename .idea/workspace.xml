@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="ホーム画面のクイズカテゴリーAPI連携を実装するため、Categoryモデル（laravel_vue_quiz/app/Category.php）を作成し、編集しました。" />
+    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="ホーム画面のクイズカテゴリーAPI連携を実装するため、Categoryシーダー(laravel_vue_quiz/database/seeds/CategoryTableSeeder.php)を作成し、編集しました。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,7 +194,7 @@
       <workItem from="1601259652604" duration="1820000" />
       <workItem from="1602551923918" duration="2429000" />
       <workItem from="1603169585878" duration="35550000" />
-      <workItem from="1603866491884" duration="22253000" />
+      <workItem from="1603866491884" duration="22590000" />
     </task>
     <task id="LOCAL-00001" summary="first commit　laravelのディレクトリを作成">
       <created>1600935074824</created>
@@ -448,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604295574158</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="ホーム画面のクイズカテゴリーAPI連携を実装するため、Categoryシーダー(laravel_vue_quiz/database/seeds/CategoryTableSeeder.php)を作成し、編集しました。">
+      <created>1604296041400</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1604296041400</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +474,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="コンパイルしたCSSとJavaScriptの読み込みをするため、laravel_vue_quiz/resources/views/index.blade.phpを編集しました。" />
     <MESSAGE value="画像パスを修正するために、laravel_vue_quiz/resources/js/components/layout/TheHeader.vueを編集しました。" />
     <MESSAGE value="画像パスを修正するために、laravel_vue_quiz/resources/js/components/page/Home.vueを編集しました。" />
     <MESSAGE value="クイズ画面の画像パスを修正するために、laravel_vue_quiz/resources/views/quiz/index.blade.phpを編集しました。" />
@@ -492,7 +498,8 @@
     <MESSAGE value="ホーム画面のクイズカテゴリーAPI連携を実装するために、CategoryController、Categoryテーブルのマイグレーションファイルを作成しました。" />
     <MESSAGE value="作成した2020_11_02_142336_create_categories_table.phpを編集しました。" />
     <MESSAGE value="ホーム画面のクイズカテゴリーAPI連携を実装するため、Categoryモデル（laravel_vue_quiz/app/Category.php）を作成し、編集しました。" />
-    <option name="LAST_COMMIT_MESSAGE" value="ホーム画面のクイズカテゴリーAPI連携を実装するため、Categoryモデル（laravel_vue_quiz/app/Category.php）を作成し、編集しました。" />
+    <MESSAGE value="ホーム画面のクイズカテゴリーAPI連携を実装するため、Categoryシーダー(laravel_vue_quiz/database/seeds/CategoryTableSeeder.php)を作成し、編集しました。" />
+    <option name="LAST_COMMIT_MESSAGE" value="ホーム画面のクイズカテゴリーAPI連携を実装するため、Categoryシーダー(laravel_vue_quiz/database/seeds/CategoryTableSeeder.php)を作成し、編集しました。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1064" y="380" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603771211925">
@@ -523,10 +530,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="747" y="209" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1604288623803" />
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1604295602775">
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1604296048947">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1604295602775" />
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1604296048947" />
     <state x="900" y="123" width="792" height="893" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600932790272">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
