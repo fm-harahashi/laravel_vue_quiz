@@ -94,7 +94,7 @@ export default {
   },
     data() {
         return {
-            categories: [1]
+            categories: [1],
             information :[]
         };
     },
