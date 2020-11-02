@@ -22,10 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="laravel_vue_quiz/app/Http/Controllers/Api/InformationController.phpを編集しました。">
+    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="設定したお知らせのAPIを呼び出すために、パスを修正しました。">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_02_142336_create_categories_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Information.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Information.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/InformationTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/InformationTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/page/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/page/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
@@ -200,7 +200,7 @@
       <workItem from="1601259652604" duration="1820000" />
       <workItem from="1602551923918" duration="2429000" />
       <workItem from="1603169585878" duration="35550000" />
-      <workItem from="1603866491884" duration="19442000" />
+      <workItem from="1603866491884" duration="21288000" />
     </task>
     <task id="LOCAL-00001" summary="first commit　laravelのディレクトリを作成">
       <created>1600935074824</created>
@@ -419,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603938345048</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="設定したお知らせのAPIを呼び出すために、パスを修正しました。">
+      <created>1604292813476</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1604292813476</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +445,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="package.jsonの移行のため、vue_hello/package.jsonをlaravel_vue_quiz/package.jsonに移行しました。" />
     <MESSAGE value="webpack.mix.jsの移行のため、vue_hello/webpack.mix.jsをlaravel_vue_quiz/webpack.mix.jsに上書きしました。" />
     <MESSAGE value="Laravelのルーティングの設定のため、laravel_vue_quiz/routes/web.phpを編集しました。" />
     <MESSAGE value="Laravelのルーティングの設定のため、laravel_vue_quiz/routes/web.phpを編集しましたが、useの１行を間違えて消してしまったので、再度追記しました。" />
@@ -463,7 +469,8 @@
     <MESSAGE value="Informationsテーブルのダミーデータの設定をするため、Informationシーダー(laravel_vue_quiz/database/seeds/InformationTableSeeder.php)を作成、編集しました。" />
     <MESSAGE value="場所時刻（Timezone・Locale）を日本に設定するために、laravel_vue_quiz/config/app.phpを編集しました。" />
     <MESSAGE value="laravel_vue_quiz/app/Http/Controllers/Api/InformationController.phpを編集しました。" />
-    <option name="LAST_COMMIT_MESSAGE" value="laravel_vue_quiz/app/Http/Controllers/Api/InformationController.phpを編集しました。" />
+    <MESSAGE value="設定したお知らせのAPIを呼び出すために、パスを修正しました。" />
+    <option name="LAST_COMMIT_MESSAGE" value="設定したお知らせのAPIを呼び出すために、パスを修正しました。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1064" y="380" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603771211925">
@@ -494,10 +501,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="747" y="209" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1604288623803" />
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1603938353668">
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1604292826155">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1603938353668" />
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1604292826155" />
     <state x="900" y="123" width="792" height="893" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600932790272">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
