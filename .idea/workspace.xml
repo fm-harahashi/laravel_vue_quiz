@@ -22,8 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="&#10;Quizモデル(laravel_vue_quiz/app/Quiz.php)を作成し、編集しました。">
-      <change afterPath="$PROJECT_DIR$/database/seeders/QuizTableSeeder.php" afterDir="false" />
+    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="Quizシーダー(laravel_vue_quiz/database/seeds/QuizTableSeeder.php)を作成し、初期データの設定をするために、編集しました。">
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_04_205426_create_answers_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +197,7 @@
       <workItem from="1601259652604" duration="1820000" />
       <workItem from="1602551923918" duration="2429000" />
       <workItem from="1603169585878" duration="35550000" />
-      <workItem from="1603866491884" duration="29513000" />
+      <workItem from="1603866491884" duration="30467000" />
     </task>
     <task id="LOCAL-00001" summary="first commit　laravelのディレクトリを作成">
       <created>1600935074824</created>
@@ -506,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604490018102</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Quizシーダー(laravel_vue_quiz/database/seeds/QuizTableSeeder.php)を作成し、初期データの設定をするために、編集しました。">
+      <created>1604490651712</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1604490651712</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +533,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ルーティングの設定のためlaravel_vue_quiz/resources/views/index.blade.phpを作成し編集しました。" />
     <MESSAGE value="ルーティングの設定で、app.jsを新規作成したことで、コンパイルの設定が必要なためlaravel_vue_quiz/webpack.mix.jsを編集しました。" />
     <MESSAGE value="クイズ画面にVue Routerを導入するため、laravel_vue_quiz/resources/views/quiz/index.blade.phpを編集しました。" />
     <MESSAGE value="ホーム画面・クイズ画面をSPA化するために、Home.vueを編集しました。" />
@@ -550,7 +557,8 @@
     <MESSAGE value="ルーティングで設定したコントローラー(Api/QuizController)と、マイグレーションファイル(2020_11_03_165930_create_quizzes_table.php)を作成しました。" />
     <MESSAGE value="作成したマイグレーションファイル(2020_11_03_165930_create_quizzes_table.php)を編集しました。" />
     <MESSAGE value="&#10;Quizモデル(laravel_vue_quiz/app/Quiz.php)を作成し、編集しました。" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Quizモデル(laravel_vue_quiz/app/Quiz.php)を作成し、編集しました。" />
+    <MESSAGE value="Quizシーダー(laravel_vue_quiz/database/seeds/QuizTableSeeder.php)を作成し、初期データの設定をするために、編集しました。" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quizシーダー(laravel_vue_quiz/database/seeds/QuizTableSeeder.php)を作成し、初期データの設定をするために、編集しました。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1064" y="380" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603771211925">
@@ -581,10 +589,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="747" y="209" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1604288623803" />
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1604490033925">
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1604490659752">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1604490033925" />
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1604490659752" />
     <state x="900" y="123" width="792" height="893" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600932790272">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
