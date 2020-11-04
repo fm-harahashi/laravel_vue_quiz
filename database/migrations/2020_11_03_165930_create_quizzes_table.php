@@ -14,7 +14,11 @@ class CreateQuizzesTable extends Migration
     public function up()
     {
         Schema::create('quizzes', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
+            $table->text('title');
+            $table->string('image_src')->nullable();
+            $table->integer('answers_id');
+            $table->integer('categories_id');
             $table->timestamps();
         });
     }

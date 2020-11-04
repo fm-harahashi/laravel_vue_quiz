@@ -22,10 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="クイズ画面のクイズ出題API連携を実装する。対応するURLと呼び出すコントローラーを設定するために、laravel_vue_quiz/routes/api.phpを編集しました。">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/QuizController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_03_165930_create_quizzes_table.php" afterDir="false" />
+    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="ルーティングで設定したコントローラー(Api/QuizController)と、マイグレーションファイル(2020_11_03_165930_create_quizzes_table.php)を作成しました。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_03_165930_create_quizzes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_03_165930_create_quizzes_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +197,7 @@
       <workItem from="1601259652604" duration="1820000" />
       <workItem from="1602551923918" duration="2429000" />
       <workItem from="1603169585878" duration="35550000" />
-      <workItem from="1603866491884" duration="27407000" />
+      <workItem from="1603866491884" duration="27978000" />
     </task>
     <task id="LOCAL-00001" summary="first commit　laravelのディレクトリを作成">
       <created>1600935074824</created>
@@ -487,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604302673420</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="ルーティングで設定したコントローラー(Api/QuizController)と、マイグレーションファイル(2020_11_03_165930_create_quizzes_table.php)を作成しました。">
+      <created>1604390671131</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1604390671131</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +512,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="クイズ画面の画像パスを修正するために、laravel_vue_quiz/resources/js/components/page/quiz.vueを編集しました。" />
     <MESSAGE value="vue-routerをインストールし、ルーティングの設定のためlaravel_vue_quiz/resources/js/router.jsを新規作成しました。" />
     <MESSAGE value="ルーティングの設定のためlaravel_vue_quiz/resources/js/app.jsを作成し編集しました。" />
     <MESSAGE value="ルーティングの設定のためlaravel_vue_quiz/resources/views/index.blade.phpを作成し編集しました。" />
@@ -531,7 +536,8 @@
     <MESSAGE value="シーダーで実行したDatabaseの値を呼び出すために、laravel_vue_quiz/app/Http/Controllers/Api/CategoryController.phpを編集しました。" />
     <MESSAGE value="ホーム画面からAPIを呼び出すために、laravel_vue_quiz/resources/js/components/page/Home.vueを編集しました。" />
     <MESSAGE value="クイズ画面のクイズ出題API連携を実装する。対応するURLと呼び出すコントローラーを設定するために、laravel_vue_quiz/routes/api.phpを編集しました。" />
-    <option name="LAST_COMMIT_MESSAGE" value="クイズ画面のクイズ出題API連携を実装する。対応するURLと呼び出すコントローラーを設定するために、laravel_vue_quiz/routes/api.phpを編集しました。" />
+    <MESSAGE value="ルーティングで設定したコントローラー(Api/QuizController)と、マイグレーションファイル(2020_11_03_165930_create_quizzes_table.php)を作成しました。" />
+    <option name="LAST_COMMIT_MESSAGE" value="ルーティングで設定したコントローラー(Api/QuizController)と、マイグレーションファイル(2020_11_03_165930_create_quizzes_table.php)を作成しました。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1064" y="380" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603771211925">
@@ -562,10 +568,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="747" y="209" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1604288623803" />
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1604302710066">
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1604390679401">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1604302710066" />
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1604390679401" />
     <state x="900" y="123" width="792" height="893" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600932790272">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
