@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="Quiz画面からAPIを呼び出すため、laravel_vue_quiz/resources/js/components/page/Quiz.vueを編集しました。">
+    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="API連携でデータを表示するため、laravel_vue_quiz/resources/js/components/page/Quiz.vueを編集しました。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/page/quiz.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/page/quiz.vue" afterDir="false" />
     </list>
@@ -197,14 +197,7 @@
       <workItem from="1601259652604" duration="1820000" />
       <workItem from="1602551923918" duration="2429000" />
       <workItem from="1603169585878" duration="35550000" />
-      <workItem from="1603866491884" duration="33512000" />
-    </task>
-    <task id="LOCAL-00001" summary="first commit　laravelのディレクトリを作成">
-      <created>1600935074824</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1600935074824</updated>
+      <workItem from="1603866491884" duration="36056000" />
     </task>
     <task id="LOCAL-00002" summary="画像ファイルを、vue_hello/public/laravel_vue_quiz/public/imagesに移行しました。">
       <created>1603169976667</created>
@@ -542,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604906168115</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="API連携でデータを表示するため、laravel_vue_quiz/resources/js/components/page/Quiz.vueを編集しました。">
+      <created>1604906727955</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1604906727955</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,7 +561,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="実装準備のためDatabaseの設定を行いました。" />
     <MESSAGE value="対応するURLと呼び出すコントローラーを設定するため、laravel_vue_quiz/routes/api.phpを編集しました。" />
     <MESSAGE value="ホーム画面のお知らせAPI連携を実装するため、InformationControllerを作成しました。" />
     <MESSAGE value="Informationテーブルのマイグレーションファイル作成し、作成したcreate_informations_tableを編集しました。" />
@@ -586,7 +585,8 @@
     <MESSAGE value="Answerモデル(laravel_vue_quiz/app/Answer.php)を作成し、編集しました。" />
     <MESSAGE value="Answerシーダー(laravel_vue_quiz/database/seeds/AnswerTableSeeder.php)を作成し、初期データの設定をするため編集しました。" />
     <MESSAGE value="Quiz画面からAPIを呼び出すため、laravel_vue_quiz/resources/js/components/page/Quiz.vueを編集しました。" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quiz画面からAPIを呼び出すため、laravel_vue_quiz/resources/js/components/page/Quiz.vueを編集しました。" />
+    <MESSAGE value="API連携でデータを表示するため、laravel_vue_quiz/resources/js/components/page/Quiz.vueを編集しました。" />
+    <option name="LAST_COMMIT_MESSAGE" value="API連携でデータを表示するため、laravel_vue_quiz/resources/js/components/page/Quiz.vueを編集しました。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1064" y="380" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603771211925">
@@ -617,10 +617,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="747" y="209" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1604288623803" />
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1604906179465">
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1604906829955">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1604906179465" />
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1604906829955" />
     <state x="900" y="123" width="792" height="893" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600932790272">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
