@@ -22,9 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="クイズ画面に正答率グラフを導入するため、llaravel_vue_quiz/resources/js/components/module/PieChart.vueを新規作成し編集しました。">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/module/TheModel.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="PieChart.vueを呼び出す設定を行うため、laravel_vue_quiz/resources/js/components/module/TheModal.vueを新規作成し編集しました。">
+      <change beforePath="$PROJECT_DIR$/resources/js/components/page/quiz.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/page/Quiz.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,14 +196,7 @@
       <workItem from="1601259652604" duration="1820000" />
       <workItem from="1602551923918" duration="2429000" />
       <workItem from="1603169585878" duration="35550000" />
-      <workItem from="1603866491884" duration="37071000" />
-    </task>
-    <task id="LOCAL-00004" summary="Sassの移行のため、vue_hello/resources/sassをlaravel_vue_quiz/resources/sassに移行しました。">
-      <created>1603171719203</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1603171719203</updated>
+      <workItem from="1603866491884" duration="37394000" />
     </task>
     <task id="LOCAL-00005" summary="JSファイルの移行のため、vue_hello/resources/jsをlaravel_vue_quiz/resources/jsに移行しました。">
       <created>1603172648409</created>
@@ -542,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604973697533</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="PieChart.vueを呼び出す設定を行うため、laravel_vue_quiz/resources/js/components/module/TheModal.vueを新規作成し編集しました。">
+      <created>1604974370024</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1604974370024</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,7 +560,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Informationテーブルのマイグレーションファイル作成し、作成したcreate_informations_tableを編集しました。" />
     <MESSAGE value="Informationモデル（laravel_vue_quiz/app/Information.php）を作成し、編集しました。" />
     <MESSAGE value="Informationsテーブルのダミーデータの設定をするため、Informationシーダー(laravel_vue_quiz/database/seeds/InformationTableSeeder.php)を作成、編集しました。" />
     <MESSAGE value="場所時刻（Timezone・Locale）を日本に設定するために、laravel_vue_quiz/config/app.phpを編集しました。" />
@@ -586,7 +584,8 @@
     <MESSAGE value="API連携でデータを表示するため、laravel_vue_quiz/resources/js/components/page/Quiz.vueを編集しました。" />
     <MESSAGE value="Quiz画面のクイズ出題の2問目以降の問題を表示するため、laravel_vue_quiz/resources/js/components/page/Quiz.vueを編集しました。" />
     <MESSAGE value="クイズ画面に正答率グラフを導入するため、llaravel_vue_quiz/resources/js/components/module/PieChart.vueを新規作成し編集しました。" />
-    <option name="LAST_COMMIT_MESSAGE" value="クイズ画面に正答率グラフを導入するため、llaravel_vue_quiz/resources/js/components/module/PieChart.vueを新規作成し編集しました。" />
+    <MESSAGE value="PieChart.vueを呼び出す設定を行うため、laravel_vue_quiz/resources/js/components/module/TheModal.vueを新規作成し編集しました。" />
+    <option name="LAST_COMMIT_MESSAGE" value="PieChart.vueを呼び出す設定を行うため、laravel_vue_quiz/resources/js/components/module/TheModal.vueを新規作成し編集しました。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1064" y="380" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603771211925">
@@ -617,10 +616,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="747" y="209" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1604288623803" />
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1604973762888">
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1604974379275">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1604973762888" />
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1604974379275" />
     <state x="900" y="123" width="792" height="893" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600932790272">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
