@@ -22,8 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="会員登録画面を表示するLaravel側での画面ファイルを作成するため、laravel_vue_quiz/resources/views/auth/register/index.blade.phpを新規作成しました。">
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="会員登録画面へのLaravel側のルーティングを追加するため、laravel_vue_quiz/routes/web.phpを編集しました。">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/page/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/page/Register.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,14 +197,7 @@
       <workItem from="1601259652604" duration="1820000" />
       <workItem from="1602551923918" duration="2429000" />
       <workItem from="1603169585878" duration="35550000" />
-      <workItem from="1603866491884" duration="50258000" />
-    </task>
-    <task id="LOCAL-00015" summary="クイズ画面の画像パスを修正するために、laravel_vue_quiz/resources/js/components/page/quiz.vueを編集しました。">
-      <created>1603255419124</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1603255419124</updated>
+      <workItem from="1603866491884" duration="51926000" />
     </task>
     <task id="LOCAL-00016" summary="vue-routerをインストールし、ルーティングの設定のためlaravel_vue_quiz/resources/js/router.jsを新規作成しました。">
       <created>1603259762089</created>
@@ -541,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605073342529</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="会員登録画面へのLaravel側のルーティングを追加するため、laravel_vue_quiz/routes/web.phpを編集しました。">
+      <created>1605073799563</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1605073799563</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +561,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="シーダーで実行したDatabaseの値を呼び出すために、laravel_vue_quiz/app/Http/Controllers/Api/CategoryController.phpを編集しました。" />
     <MESSAGE value="ホーム画面からAPIを呼び出すために、laravel_vue_quiz/resources/js/components/page/Home.vueを編集しました。" />
     <MESSAGE value="クイズ画面のクイズ出題API連携を実装する。対応するURLと呼び出すコントローラーを設定するために、laravel_vue_quiz/routes/api.phpを編集しました。" />
     <MESSAGE value="ルーティングで設定したコントローラー(Api/QuizController)と、マイグレーションファイル(2020_11_03_165930_create_quizzes_table.php)を作成しました。" />
@@ -585,7 +585,8 @@
     <MESSAGE value="会員登録機能の見た目のコーディングを行うため、laravel_vue_quiz/resources/js/components/page/Register.vue を新規作成しました。" />
     <MESSAGE value="会員登録機能ページのVue.js側のルーティングを設定するため、laravel_vue_quiz/resources/js/router.jsを編集しました。" />
     <MESSAGE value="会員登録画面を表示するLaravel側での画面ファイルを作成するため、laravel_vue_quiz/resources/views/auth/register/index.blade.phpを新規作成しました。" />
-    <option name="LAST_COMMIT_MESSAGE" value="会員登録画面を表示するLaravel側での画面ファイルを作成するため、laravel_vue_quiz/resources/views/auth/register/index.blade.phpを新規作成しました。" />
+    <MESSAGE value="会員登録画面へのLaravel側のルーティングを追加するため、laravel_vue_quiz/routes/web.phpを編集しました。" />
+    <option name="LAST_COMMIT_MESSAGE" value="会員登録画面へのLaravel側のルーティングを追加するため、laravel_vue_quiz/routes/web.phpを編集しました。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1064" y="380" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603771211925">
@@ -616,10 +617,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="747" y="209" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1604288623803" />
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1605073351267">
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1605073858916">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1605073351267" />
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1605073858916" />
     <state x="900" y="123" width="792" height="893" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600932790272">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
