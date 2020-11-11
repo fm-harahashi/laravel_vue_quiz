@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="HeaderとFooterが2つずつ重複して表示されてしまうことを防ぐために、laravel_vue_quiz/resources/js/components/page/Quiz.vueを編集し重複したHeaderとFooterを削除しました。">
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="Laravel側でのLayoutの共通化をするため、laravel_vue_quiz/resources/views/layouts/app.blade.phpを新規作成しました。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,14 +194,7 @@
       <workItem from="1601259652604" duration="1820000" />
       <workItem from="1602551923918" duration="2429000" />
       <workItem from="1603169585878" duration="35550000" />
-      <workItem from="1603866491884" duration="46594000" />
-    </task>
-    <task id="LOCAL-00010" summary="ホーム画面とクイズ画面を作成するため、index.blade.phpとquiz/index.blade.phpの作成と編集しました。">
-      <created>1603194439274</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1603194439274</updated>
+      <workItem from="1603866491884" duration="46949000" />
     </task>
     <task id="LOCAL-00011" summary="コンパイルしたCSSとJavaScriptの読み込みをするため、laravel_vue_quiz/resources/views/index.blade.phpを編集しました。">
       <created>1603195324118</created>
@@ -541,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605064534902</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Laravel側でのLayoutの共通化をするため、laravel_vue_quiz/resources/views/layouts/app.blade.phpを新規作成しました。">
+      <created>1605065167193</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1605065167193</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +558,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ホーム画面のクイズカテゴリーAPI連携を実装するために、api.phpを編集しました。" />
     <MESSAGE value="ホーム画面のクイズカテゴリーAPI連携を実装するために、CategoryController、Categoryテーブルのマイグレーションファイルを作成しました。" />
     <MESSAGE value="作成した2020_11_02_142336_create_categories_table.phpを編集しました。" />
     <MESSAGE value="ホーム画面のクイズカテゴリーAPI連携を実装するため、Categoryモデル（laravel_vue_quiz/app/Category.php）を作成し、編集しました。" />
@@ -585,7 +582,8 @@
     <MESSAGE value="Vue.js側でのLayoutの共通化するため、laravel_vue_quiz/resources/js/components/page/MainPage.vue を新規作成しました。" />
     <MESSAGE value="HeaderとFooterが2つずつ重複して表示されてしまうことを防ぐために、laravel_vue_quiz/resources/js/components/page/Home.vueを編集し重複したHeaderとFooterを削除しました。" />
     <MESSAGE value="HeaderとFooterが2つずつ重複して表示されてしまうことを防ぐために、laravel_vue_quiz/resources/js/components/page/Quiz.vueを編集し重複したHeaderとFooterを削除しました。" />
-    <option name="LAST_COMMIT_MESSAGE" value="HeaderとFooterが2つずつ重複して表示されてしまうことを防ぐために、laravel_vue_quiz/resources/js/components/page/Quiz.vueを編集し重複したHeaderとFooterを削除しました。" />
+    <MESSAGE value="Laravel側でのLayoutの共通化をするため、laravel_vue_quiz/resources/views/layouts/app.blade.phpを新規作成しました。" />
+    <option name="LAST_COMMIT_MESSAGE" value="Laravel側でのLayoutの共通化をするため、laravel_vue_quiz/resources/views/layouts/app.blade.phpを新規作成しました。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1064" y="380" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603771211925">
@@ -616,10 +614,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="747" y="209" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1604288623803" />
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1605064585863">
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1605065175415">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1605064585863" />
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1605065175415" />
     <state x="900" y="123" width="792" height="893" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600932790272">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
