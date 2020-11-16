@@ -22,9 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="会員登録機能のLaravel側のルーティング設定を行うため、laravel_vue_quiz/routes/web.php を編集しました。">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+    <list default="true" id="ac1f6fcc-735f-4ba6-9b07-4b605d0df73f" name="Default Changelist" comment="ログイン後のリダイレクト先のlaravel_vue_quiz/app/Http/Controllers/Auth/RegisterController.phpを編集しました。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,14 +197,7 @@
       <workItem from="1601259652604" duration="1820000" />
       <workItem from="1602551923918" duration="2429000" />
       <workItem from="1603169585878" duration="35550000" />
-      <workItem from="1603866491884" duration="55263000" />
-    </task>
-    <task id="LOCAL-00019" summary="ルーティングの設定で、app.jsを新規作成したことで、コンパイルの設定が必要なためlaravel_vue_quiz/webpack.mix.jsを編集しました。">
-      <created>1603263858904</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1603263858904</updated>
+      <workItem from="1603866491884" duration="56100000" />
     </task>
     <task id="LOCAL-00020" summary="クイズ画面にVue Routerを導入するため、laravel_vue_quiz/resources/views/quiz/index.blade.phpを編集しました。">
       <created>1603264626273</created>
@@ -542,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605492476199</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="ログイン後のリダイレクト先のlaravel_vue_quiz/app/Http/Controllers/Auth/RegisterController.phpを編集しました。">
+      <created>1605494397870</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1605494397870</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,7 +561,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="作成したマイグレーションファイル(2020_11_03_165930_create_quizzes_table.php)を編集しました。" />
     <MESSAGE value="&#10;Quizモデル(laravel_vue_quiz/app/Quiz.php)を作成し、編集しました。" />
     <MESSAGE value="Quizシーダー(laravel_vue_quiz/database/seeds/QuizTableSeeder.php)を作成し、初期データの設定をするために、編集しました。" />
     <MESSAGE value="Answerテーブルのマイグレーションファイル(2019_11_07_150401_create_answers_table)を作成し、編集しました。" />
@@ -586,7 +585,8 @@
     <MESSAGE value="会員登録機能にバリデーションを実装するため、laravel_vue_quiz/resources/js/components/page/Register.vue を編集しました。" />
     <MESSAGE value="会員登録機能を実装するため、laravel_vue_quiz/resources/js/components/page/Register.vue を編集しました。" />
     <MESSAGE value="会員登録機能のLaravel側のルーティング設定を行うため、laravel_vue_quiz/routes/web.php を編集しました。" />
-    <option name="LAST_COMMIT_MESSAGE" value="会員登録機能のLaravel側のルーティング設定を行うため、laravel_vue_quiz/routes/web.php を編集しました。" />
+    <MESSAGE value="ログイン後のリダイレクト先のlaravel_vue_quiz/app/Http/Controllers/Auth/RegisterController.phpを編集しました。" />
+    <option name="LAST_COMMIT_MESSAGE" value="ログイン後のリダイレクト先のlaravel_vue_quiz/app/Http/Controllers/Auth/RegisterController.phpを編集しました。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1064" y="380" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603771211925">
@@ -617,10 +617,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="747" y="209" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1604288623803" />
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1605492484819">
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2" timestamp="1605494471562">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1605492484819" />
+    <state x="789" y="309" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1605494471562" />
     <state x="900" y="123" width="792" height="893" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600932790272">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -629,9 +629,9 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="890" y="324" width="598" height="490" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1604284990975" />
-    <state x="815" y="248" width="670" height="676" key="search.everywhere.popup" timestamp="1605492957251">
+    <state x="815" y="248" width="670" height="676" key="search.everywhere.popup" timestamp="1605494859960">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="815" y="248" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1605492957251" />
+    <state x="815" y="248" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1605494859960" />
   </component>
 </project>
